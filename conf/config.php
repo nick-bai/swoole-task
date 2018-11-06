@@ -23,14 +23,5 @@ return [
 
     'port' => 9501,
 
-    'log_file' => __DIR__ . '/../logs/' . date('Y-m-d') . '.log',
-
-    // 渠道简码与渠道类对应
-    'pay_class_code' => [
-        'OF' => 'OfPay',
-        'SJSB' => 'NineteenPay'
-    ],
-
-    // 异步回调域名
-    'notify_url' => 'https://recharge.hbfintech.com',
+    'log_file' => __DIR__ . '/../logs/' . date('Y-m-d') . '.log'
 ];
