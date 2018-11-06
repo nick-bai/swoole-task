@@ -9,10 +9,10 @@
  */
 use task\HttpServer;
 
-include '../autoload.php';
-include '../common.php';
+include __DIR__ . '/../autoload.php';
+include __DIR__ . '/../common.php';
 
-$config = include '../conf/config.php';
+$config = include __DIR__ . '/../conf/config.php';
 
 $http = new HttpServer($config);
 $http->run();
