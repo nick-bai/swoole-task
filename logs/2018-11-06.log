@@ -1,0 +1,6 @@
+[2018-11-06 07:39:39] task_log.INFO: server run  [] []
+[2018-11-06 07:39:42] task_log.INFO: Task#0 finished, data_len=8 [] []
+[2018-11-06 07:39:42] task_log.INFO: Task#1 finished, data_len=8 [] []
+[2018-11-06 07:39:42] task_log.INFO: Task#2 finished, data_len=8 [] []
+[2018-11-06 07:39:42] task_log.INFO: Task#3 finished, data_len=8 [] []
+[2018-11-06 07:39:42] task_log.INFO: Task#4 finished, data_len=8 [] []

@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Created by PhpStorm.
+ * User: NickBai
+ * Email: 876337011@qq.com
+ * Date: 2018/11/6
+ * Time: 10:11 AM
+ */
+use task\HttpServer;
+
+include '../autoload.php';
+include '../common.php';
+
+$config = include '../conf/config.php';
+
+$http = new HttpServer($config);
+$http->run();
