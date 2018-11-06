@@ -23,5 +23,5 @@ swoole-task框架
 
 #### 如何使用 
 
-EventTrait.php 的 onRequest 方法，通过http 接受任务投递。 
+EventTrait.php 的 onRequest 方法，通过http 接受任务投递。   
 TaskTrait.php 的 onTask 方法，用来消耗 任务
